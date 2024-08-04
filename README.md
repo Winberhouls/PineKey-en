@@ -4,7 +4,7 @@ Highlight the key being pressed, count the number of times each key is pressed, 
 Supports keyboard, joystick, game controller (handheld) input.  
 Not intended for release, please compile it yourself or + penguin 384065633 to get it from me.
 
-! [PineKey_v1.0.1](https://github.com/cstrikest/PineKey/blob/main/PineKey_v1.0.1.jpg?raw=true)
+![PineKey_v1.0.1](https://github.com/cstrikest/PineKey/blob/main/PineKey_v1.0.1.jpg?raw=true)
 
 ### v1.2 (under development)
 
