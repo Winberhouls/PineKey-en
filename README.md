@@ -1,93 +1,95 @@
-# PineKey BMS/IIDX 基于Dear ImGui的音乐游戏按键输入辅助显示
+# PineKey BMS/IIDX Dear ImGui-based keystroke input assist display for music games
 
-高亮正在按下的按键，统计各按键的按下次数，时长，频率，并图形化显示。显示内容可使用OBS等直播推流应用抓取窗口。  
-支持键盘，手柄，游戏控制器（手台）等输入。  
-目前无意release。请自行编译或+企鹅384065633找我要。
+Highlight the key being pressed, count the number of times each key is pressed, the duration, the frequency, and display it graphically. Display content can be captured using live streaming applications such as OBS.  
+Supports keyboard, joystick, game controller (handheld) input.  
+Not intended for release, please compile it yourself or + penguin 384065633 to get it from me.
 
-![PineKey_v1.0.1](https://github.com/cstrikest/PineKey/blob/main/PineKey_v1.0.1.jpg?raw=true)
+! [PineKey_v1.0.1](https://github.com/cstrikest/PineKey/blob/main/PineKey_v1.0.1.jpg?raw=true)
 
-### v1.2 （开发中）
+### v1.2 (under development)
 
-- 将各个工具完全分离，以单独的窗口显示
-- 取消各部分的启用/关闭选项。默认开启所有工具
-- 面向obs的优化：背景透明以及固定窗口大小（防止窗口大小变化后捕获目标丢失）
-- ESC键退出绑定模式，DEL键删除绑定映射
-- 完善模拟摇杆的皿输入。可以自动选择摇杆的轴，并显示预览
-- 更大更好的文字数值显示区域
+- Completely separate each tool to be displayed in a separate window
+- Remove enable/disable option for each section. Enable all tools by default
+- Obs-oriented optimizations: background transparency and fixed window size (to prevent capture target loss after window size change)
+- ESC key to exit bind mode, DEL key to delete bind mapping
+- Improve the petri dish input of the analog joystick. The axis of the joystick can be selected automatically and a preview is displayed.
+- Bigger and better text value display area
 
-### v1.1.9pre （当前）
+### v1.1.9pre (current)
 
-- 界面更新
-- 修正使用obs抓取界面时的问题
-- 为了让obs更好地截取区域做了若干调整
+- Interface Updates
+- Fix a problem when using obs to capture the interface
+- Made some adjustments to allow obs to better capture the area
 
-## 历史版本
+## Version history
 
 ### v1.1.8pre
 
-- 转盘的模拟输入
+- Analog input for turntable
 
 ### v1.1.7pre
 
-- 支持控制器按键绑定
-- 键盘控制器按键输入切换
-- 
+- Support controller keybinding
+- Keyboard controller key input switching
+-## v1.1.8pre Analog input for turntable 
 ### v1.1.6pre
 
-- 优化代码结构
-- 更新界面布局
+- Optimize code structure
+- Update interface layout
 ### v1.1.5pre
 
-- 整体渲染/输入控制框架迁移至SDL2
-- 添加控制器按键支持
-- 优化性能
+- Overall rendering/input control framework migrated to SDL2
+- Add controller key support
+- Optimize performance
 
 ### v1.0.4
 
-- 1p 2p切换时，直方图对应数据顺序也切换
-- 按下时长的直方图计算方式更新，可以显示最大计数帧数与毫秒数
-- 引入dinput8
+- When switching between 1p and 2p, the data order of histogram is also switched.
+- Updated the histogram calculation method for press duration to show the maximum number of frames and milliseconds counted.
+- Introduced dinput8
 
 ### v1.0.1
 
-- XInput支持
-- 修正界面错误
-- 修正布局错误
+- XInput support
+- Fixed interface bugs
+- Fixed layout bugs
 
 ### v1.0
 
-- 增加按键UI独立窗口
-- 增加总计数显示开关
-- 增加kps显示开关
-- 修正界面错误
-- 修正布局错误
+- Add separate window for key UI
+- Add total count display switch
+- Add kps display switch
+- Fix interface bugs
+- Fix layout bugs
   
 ### v0.5.2 (pre)
 
-- 增加皿双按键绑定
-- 调整界面大小与滚动
+- Add Petri dish dual button binding
+- Adjust interface size and scrolling
 
 ### v0.5.1 (pre)
 
-- 完善kps折线图显示
+- Improve kps line chart display
 
 ### v0.5 (pre)
 
-- 可保存的config
-- 自动保存全局按键计数
-- 添加按键计数归零按钮
-- 调整数值
-- 调整布局
+- Saveable config
+- Auto-save global key count
+- Add button to zero key count
+- Adjust values
+- Layout adjustment
 
 ### v0.4 (pre)
 
-- 添加kps计算，显示kps折线图
-- 可调整的按键计数与按下时长的直方图显示
+- Add kps calculation, show kps line graph
+- Adjustable histogram of key counts vs. press duration
 
 ### v0.3 (pre)
 
-- 键盘按键输入支持
+- Keyboard input support
 
 ### v0.2 (pre)
 
-- 完善按键布局，支持直列以及iidx式排列
+- Improve key layout, support inline and iidx style arrangement.
+
+Translated with DeepL.com (free version)
